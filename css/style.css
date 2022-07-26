@@ -56,7 +56,7 @@ margin: 0;
 padding: 0;
 }
 
-.current {
+header .current {
     color: #2196F3;
 }
 
