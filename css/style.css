@@ -628,7 +628,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .client-section a:hover ,
 .client-section a:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 border: 1px solid #2196F3;
 border-radius: 4px;
@@ -683,7 +682,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 footer a:hover ,
 footer a:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 }
 
@@ -783,19 +781,16 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .link-inline:hover,
 .link-inline:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
 .link-inline2:hover,
 .link-inline2:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
 .link-inline3:hover,
 .link-inline3:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
@@ -846,7 +841,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .button2:hover,
 .button2:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background: #2196F3;
 color: #FFFFFF;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
