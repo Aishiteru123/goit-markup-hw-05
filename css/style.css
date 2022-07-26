@@ -56,6 +56,10 @@ margin: 0;
 padding: 0;
 }
 
+.current {
+    color: #2196F3;
+}
+
 .current::after {
     content: "";
     position: absolute;
@@ -96,11 +100,13 @@ fill: #757575;
 
 .link-inline2:hover .contact-icon-1 ,
 .link-inline2:focus .contact-icon-1 {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 }
 
 .link-inline2:hover .contact-icon-2 ,
 .link-inline2:focus .contact-icon-2 {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 }
 
@@ -252,6 +258,7 @@ margin-top: 30px;
 
 .modal svg:hover {
     border: 1px solid #000;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal svg {
@@ -408,11 +415,13 @@ fill: #afb1b8;
 
 .commad-icon-ul a:hover .command-icon,
 .commad-icon-ul a:focus .command-icon {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #FFFFFF;
 }
 
 .commad-icon-ul a:hover,
 .commad-icon-ul a:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #2196F3;
 }
 
@@ -452,7 +461,7 @@ margin-left: 30px
 }
 
 .overlay {
-    visibility: hidden;
+    
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
     width: 370px;
@@ -481,46 +490,55 @@ margin-left: 30px
 }
 
 .li18:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li19:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li20:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li21:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li22:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li23:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li24:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li25:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li26:hover .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
@@ -576,6 +594,7 @@ margin-top: 4px;
 .li18:hover img , .li19:hover img , .li20:hover img , .li21:hover img , .li22:hover img , .li23:hover img , .li24:hover img , .li25:hover img , .li26:hover img ,
 .li18:focus img , .li19:focus img , .li20:focus img , .li21:focus img , .li22:focus img , .li23:focus img , .li24:focus img , .li25:focus img , .li26:focus img {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-section-10 {
@@ -603,6 +622,7 @@ border-radius: 4px;
 
 .client-section a:hover ,
 .client-section a:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 border: 1px solid #2196F3;
 border-radius: 4px;
@@ -656,6 +676,7 @@ fill: rgba(255, 255, 255, 0.1);
 
 footer a:hover ,
 footer a:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #2196F3;
 }
 
@@ -747,16 +768,19 @@ color: rgba(255, 255, 255, 0.6);
 
 .link-inline:hover,
 .link-inline:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
 .link-inline2:hover,
 .link-inline2:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
 .link-inline3:hover,
 .link-inline3:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #2196F3;
 }
 
@@ -806,6 +830,7 @@ padding-right: 22px;
 
 .button2:hover,
 .button2:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background: #2196F3;
 color: #FFFFFF;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
