@@ -494,56 +494,83 @@ margin-left: 30px
     padding-left: 24px;
 }
 
-.li18:hover .overlay {
+.li18 .overlay {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li19 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li20 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li21 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li22 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li23 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li24 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li25 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li26 .overlay {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li18:hover .overlay {
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li19:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li20:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li21:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li22:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li23:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li24:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li25:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
 
 .li26:hover .overlay {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transform: translatey(-100%);
 }
